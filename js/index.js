@@ -32,10 +32,7 @@ let images = [{
 //   }, {
 //     url: "https://i.pinimg.com/736x/c5/d9/14/c5d9142556fe74c49a2c1c2d4ea6d46a.jpg",
 //     title: "Mini Cooper бордовый"
-//   }, {
-//     url: "https://auusaca.com/wp-content/uploads/2019/12/6.jpg",
-//     title: "Mini Cooper белый"
-// }];
+//   }
 
 function initSlider(options){
     if (!images || !images.length) return;
@@ -144,7 +141,7 @@ let sliderOptions = {
     dots: true,
     titles: true,
     autoplay: true,
-    autoplayInterval: 3000
+    autoplayInterval: 5000
 };
 
 
